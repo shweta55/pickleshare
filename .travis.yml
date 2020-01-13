@@ -1,5 +1,7 @@
 language: python
-install: pip install -e .
+install: 
+- lscpu
+- pip install -e .
 script: py.test
 
 python:
